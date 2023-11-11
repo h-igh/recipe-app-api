@@ -4,7 +4,8 @@ Sample Tests
 
 from django.test import SimpleTestCase
 
-from app import calc
+from app.app import calc
+
 
 class CalcTests(SimpleTestCase):
     """ test calc module """
